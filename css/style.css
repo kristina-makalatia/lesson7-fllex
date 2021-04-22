@@ -1,0 +1,75 @@
+/*background image example*/
+.bg-image {
+	background-image: url(../image/photographer.jpg);
+	height: 500px;
+	width: 900px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+/*flex examples*/
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: yellow;
+}
+.left-video {
+	width: 570px;
+	height: 320px;
+	background-color: lightblue;
+	/*margin-right: 30px;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right-video {
+	width: 570px;
+	height: 320px;
+	background-color: grey;
+}
+.video-wraper {
+	display: flex;
+	justify-content: space-between;
+}
+.video {
+	width: 100%;
+	height: 100%;
+}
+
+.read {
+	color: #FF7A00;
+	font-size: 14px;
+}
+.read::after {
+	content: "";
+	width: 47px;
+	height: 4px;
+	background-color: #FF7A00;
+	display: inline-block;
+}
+
+.article-left-block {
+	width: 570px;
+	background-color: aqua;
+}
+.article-right-block {
+	width: 570px;
+	background-color: lightblue;
+}
+.article-wraper {
+	display: flex;
+	justify-content: space-between;
+}
+.image-block {
+	display: flex;
+	justify-content: space-around;
+}
+.image-block p {
+	width: 355px;
+}
+.readmore {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 9px;
+}
